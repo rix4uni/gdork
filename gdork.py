@@ -12,10 +12,10 @@ search_engines = {
 }
 
 # Function to generate search URLs
-def generate_search_urls(queries, engines, wildcard_levels):
+def generate_search_urls(queries, engines, wildcard_levels, domain):
     for level in range(wildcard_levels + 1):  # From 0 to wildcard_levels
         for query in queries:
-            query = query.strip()  # Remove any leading/trailing whitespace
+            query = query.replace("example.com", domain).strip()  # Replace example.com with the specified domain
             if query:  # Check if the line is not empty
                 wildcard_prefix = '*.' * level  # Create wildcard prefix
                 parts = query.split(' ')
@@ -32,6 +32,8 @@ def main():
     parser = argparse.ArgumentParser(description="Generate search URLs with wildcard domains")
     parser.add_argument("-se", "--search-engines", metavar="SE", type=str, default="all",
                         help="Specify search engines separated by comma or use 'all' for all engines")
+    parser.add_argument("-d", "--domain", metavar="DOMAIN", type=str, required=True,
+                        help="Specify the domain to replace 'example.com'")
     parser.add_argument("-wl", "--wildcard-levels", metavar="WL", type=int, default=5,
                         help="Specify the number of wildcard levels to add (default is 5)")
     
@@ -46,7 +48,7 @@ def main():
     with open('queries.txt', 'r') as file:
         queries = file.readlines()
 
-    generate_search_urls(queries, engines, args.wildcard_levels)
+    generate_search_urls(queries, engines, args.wildcard_levels, args.domain)
 
 if __name__ == "__main__":
     main()
