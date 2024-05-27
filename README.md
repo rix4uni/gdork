@@ -35,7 +35,7 @@ site:tiltbrush.com ext:aspx inurl:?
 
 Single Engine:
 ```
-python3 gdork.py -se google -wl 5
+python3 gdork.py -se google -d dell.com -wl 5
 ```
 
 Output:
@@ -56,7 +56,7 @@ https://www.google.com/search?q=site:*.*.*.*.*.tiltbrush.com ext%3Aaspx%20inurl%
 
 Multiple Engines:
 ```
-python3 gdork.py -se google,duckduckgo -wl 5
+python3 gdork.py -se google,duckduckgo -d dell.com -wl 5
 ```
 
 Output:
@@ -89,7 +89,7 @@ https://duckduckgo.com/?q=site:*.*.*.*.*.tiltbrush.com ext%3Aaspx%20inurl%3A%3F
 
 All Engines:
 ```
-python3 gdork.py -se all -wl 5
+python3 gdork.py -se all -d dell.com -wl 5
 ```
 
 Output:
