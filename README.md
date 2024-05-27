@@ -11,7 +11,7 @@ python3 gdork.py -h
 
 ## Usage
 ```
-usage: gdork.py [-h] [-se SE] [-wl WL]
+usage: gdork.py [-h] [-se SE] -d DOMAIN [-wl WL]
 
 Generate search URLs with wildcard domains
 
@@ -19,6 +19,8 @@ options:
   -h, --help            show this help message and exit
   -se SE, --search-engines SE
                         Specify search engines separated by comma or use 'all' for all engines
+  -d DOMAIN, --domain DOMAIN
+                        Specify the domain to replace 'example.com'
   -wl WL, --wildcard-levels WL
                         Specify the number of wildcard levels to add (default is 5)
 ```
