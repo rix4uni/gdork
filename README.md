@@ -29,8 +29,8 @@ options:
 
 Queries:
 ```
-site:tiltbrush.com ext:php inurl:?
-site:tiltbrush.com ext:aspx inurl:?
+site:example.com ext:php inurl:?
+site:example.com ext:aspx inurl:?
 ```
 
 Single Engine:
