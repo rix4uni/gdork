@@ -1,44 +1,44 @@
-site:tiltbrush.com ext:php inurl:?
-site:tiltbrush.com ext:aspx inurl:?
-site:tiltbrush.com ext:asp inurl:?
-site:tiltbrush.com ext:jsp inurl:?
-site:tiltbrush.com ext:jspx inurl:?
-site:tiltbrush.com inurl:=
-site:tiltbrush.com inurl:&
-site:tiltbrush.com intitle:"Submit Feedback" | intitle:"Contact us" | intitle:"Join Our Waitlist" | intitle:"Subscribe" | intitle:"Newsletter" | intitle:"Unsubscribe" | intitle:"Email Support" | intitle:"Customer Support"
-site:tiltbrush.com inurl:login | inurl:signin | intitle:Login | intitle:"sign in" | inurl:auth | inurl:/register
-site:tiltbrush.com "choose file"
-site:tiltbrush.com intext:"index of" "parent directory"
-site:tiltbrush.com intitle:"Swagger UI" | inurl:"index.html" | inurl:"swagger" | inurl:"restapi" | inurl:"classicapi" | inurl:"api" | inurl:"apidocs" | inurl:"clicktrack" | inurl:"doc" | inurl:"static" | inurl:"documentation" | inurl:"openapi" | inurl:"explore" | inurl:"v1" | inurl:"v2" | inurl:"v3" | inurl:"v4" | inurl:"developer" | inurl:"apidoc" | inurl:"document" | inurl:"govpay" | inurl:"routes" | inurl:"application" | inurl:"graphql" | inurl:"playground" | inurl:"apis" | inurl:"public" | inurl:"schema" | inurl:"spec" | inurl:"gateway"
-site:tiltbrush.com intitle:"Oracle+PeopleSoft+Sign-in"
-site:tiltbrush.com intitle:"IIS Windows Server"
-site:tiltbrush.com inurl:"setup/index.php" | inurl:"phpmyadmin" | inurl:"phpMyAdmin" | inurl:"admin/phpMyAdmin" | inurl:"pma/setup/index.php" | intitle:"index of /phpMyAdmin"
-site:tiltbrush.com "index of /.git" | intext:"index of /.git" "parent directory"
-site:tiltbrush.com inurl:/geoserver/web/
-site:tiltbrush.com intitle:"Grafana"
-site:tiltbrush.com intitle:"phpLDAPadmin"
-site:tiltbrush.com intitle:"Dashboard [Jenkins]"
-site:tiltbrush.com intitle:"Werkzeug"
-site:tiltbrush.com intitle:"Symfony"
-site:tiltbrush.com intext:"The page you are looking for doesn't exist or has been moved."
-site:tiltbrush.com intext:"Joomla! - Open Source Content Management"
-site:tiltbrush.com (filetype:doc OR filetype:xlsx) intext:@gmail.com
-site:tiltbrush.com intitle:index.of intext:log
-site:tiltbrush.com intext:"index of" "wp-content.zip"
-site:tiltbrush.com intitle:"index of /" "admin.zip" "admin/"
-site:tiltbrush.com intext:"Index of" intext:"/etc"
-site:tiltbrush.com intext:"Index of" intext:"backup.tar"
-site:tiltbrush.com intext:"Index of" intext:"backend/"
-site:tiltbrush.com Index of" intext:"source_code.zip | Index of" intext:"zip
-site:tiltbrush.com intitle:"index of" "docker-compose.yml"
-site:tiltbrush.com intitle:"Index of" wp-admin
-site:tiltbrush.com ext:pdf
-site:tiltbrush.com ext:doc | ext:docx
-site:tiltbrush.com ext:xls | ext:xlsx
-site:tiltbrush.com ext:csv
-site:tiltbrush.com ext:ppt | ext:pptx
-site:tiltbrush.com ext:txt
-site:openbugbounty.org inurl:reports intext:"tiltbrush.com"
-site:tiltbrush.com ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess
-site:tiltbrush.com ext:doc | ext:docx intext:"internal use only | confidential"
-site:tiltbrush.com ext:pdf intext:"internal use only | confidential"
+site:example.com ext:php inurl:?
+site:example.com ext:aspx inurl:?
+site:example.com ext:asp inurl:?
+site:example.com ext:jsp inurl:?
+site:example.com ext:jspx inurl:?
+site:example.com inurl:=
+site:example.com inurl:&
+site:example.com intitle:"Submit Feedback" | intitle:"Contact us" | intitle:"Join Our Waitlist" | intitle:"Subscribe" | intitle:"Newsletter" | intitle:"Unsubscribe" | intitle:"Email Support" | intitle:"Customer Support"
+site:example.com inurl:login | inurl:signin | intitle:Login | intitle:"sign in" | inurl:auth | inurl:/register
+site:example.com "choose file"
+site:example.com intext:"index of" "parent directory"
+site:example.com intitle:"Swagger UI" | inurl:"index.html" | inurl:"swagger" | inurl:"restapi" | inurl:"classicapi" | inurl:"api" | inurl:"apidocs" | inurl:"clicktrack" | inurl:"doc" | inurl:"static" | inurl:"documentation" | inurl:"openapi" | inurl:"explore" | inurl:"v1" | inurl:"v2" | inurl:"v3" | inurl:"v4" | inurl:"developer" | inurl:"apidoc" | inurl:"document" | inurl:"govpay" | inurl:"routes" | inurl:"application" | inurl:"graphql" | inurl:"playground" | inurl:"apis" | inurl:"public" | inurl:"schema" | inurl:"spec" | inurl:"gateway"
+site:example.com intitle:"Oracle+PeopleSoft+Sign-in"
+site:example.com intitle:"IIS Windows Server"
+site:example.com inurl:"setup/index.php" | inurl:"phpmyadmin" | inurl:"phpMyAdmin" | inurl:"admin/phpMyAdmin" | inurl:"pma/setup/index.php" | intitle:"index of /phpMyAdmin"
+site:example.com "index of /.git" | intext:"index of /.git" "parent directory"
+site:example.com inurl:/geoserver/web/
+site:example.com intitle:"Grafana"
+site:example.com intitle:"phpLDAPadmin"
+site:example.com intitle:"Dashboard [Jenkins]"
+site:example.com intitle:"Werkzeug"
+site:example.com intitle:"Symfony"
+site:example.com intext:"The page you are looking for doesn't exist or has been moved."
+site:example.com intext:"Joomla! - Open Source Content Management"
+site:example.com (filetype:doc OR filetype:xlsx) intext:@gmail.com
+site:example.com intitle:index.of intext:log
+site:example.com intext:"index of" "wp-content.zip"
+site:example.com intitle:"index of /" "admin.zip" "admin/"
+site:example.com intext:"Index of" intext:"/etc"
+site:example.com intext:"Index of" intext:"backup.tar"
+site:example.com intext:"Index of" intext:"backend/"
+site:example.com Index of" intext:"source_code.zip | Index of" intext:"zip
+site:example.com intitle:"index of" "docker-compose.yml"
+site:example.com intitle:"Index of" wp-admin
+site:example.com ext:pdf
+site:example.com ext:doc | ext:docx
+site:example.com ext:xls | ext:xlsx
+site:example.com ext:csv
+site:example.com ext:ppt | ext:pptx
+site:example.com ext:txt
+site:openbugbounty.org inurl:reports intext:"example.com"
+site:example.com ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess
+site:example.com ext:doc | ext:docx intext:"internal use only | confidential"
+site:example.com ext:pdf intext:"internal use only | confidential"
