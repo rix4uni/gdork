@@ -1,4 +1,4 @@
-# gdork
+## gdork
 
 gdork generates dorks for all search engine
 
@@ -6,12 +6,12 @@ gdork generates dorks for all search engine
 ```
 git clone https://github.com/rix4uni/gdork.git
 cd gdork
-python3 gdork.py -h
+python3 setup.py install
 ```
 
 ## Usage
 ```
-usage: gdork.py [-h] [-se SE] -d DOMAIN [-wl WL]
+usage: gdork [-h] [-se SE] -d DOMAIN [-wl WL]
 
 Generate search URLs with wildcard domains
 
@@ -35,7 +35,7 @@ site:example.com ext:aspx inurl:?
 
 Single Engine:
 ```
-python3 gdork.py -se google -d tiltbrush.com -wl 5
+gdork -se google -d tiltbrush.com -wl 5
 ```
 
 Output:
@@ -56,7 +56,7 @@ https://www.google.com/search?q=site:*.*.*.*.*.tiltbrush.com ext%3Aaspx%20inurl%
 
 Multiple Engines:
 ```
-python3 gdork.py -se google,duckduckgo -d tiltbrush.com -wl 5
+gdork -se google,duckduckgo -d tiltbrush.com -wl 5
 ```
 
 Output:
@@ -89,7 +89,7 @@ https://duckduckgo.com/?q=site:*.*.*.*.*.tiltbrush.com ext%3Aaspx%20inurl%3A%3F
 
 All Engines:
 ```
-python3 gdork.py -se all -d tiltbrush.com -wl 5
+gdork -se all -d tiltbrush.com -wl 5
 ```
 
 Output:
